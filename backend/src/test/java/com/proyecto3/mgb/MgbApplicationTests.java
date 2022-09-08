@@ -1,10 +1,10 @@
-package com.proyectofinal.laura;
+package com.proyecto3.mgb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LauraApplicationTests {
+class MgbApplicationTests {
 
 	@Test
 	void contextLoads() {

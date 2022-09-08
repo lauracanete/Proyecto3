@@ -1,13 +1,13 @@
-package com.proyectofinal.laura;
+package com.proyecto3.mgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LauraApplication {
+public class MgbApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LauraApplication.class, args);
+		SpringApplication.run(MgbApplication.class, args);
 	}
 
 }
