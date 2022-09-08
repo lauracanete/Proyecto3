@@ -15,9 +15,9 @@ export class TokenService {
 
   constructor() { }
 
-  public setToken(token: string): void{
-    window.sessionStorange.removeItem(TOKEN_KEY);
-    window.sessionStorange.setItem(TOKEN_KEY);
+  public setToken(token: string): void {
+    window.sessionStorage.removeItem(TOKEN_KEY);
+    window.sessionStorage.setItem(TOKEN_KEY);
   } 
 
   public getToken(): string {
